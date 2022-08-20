@@ -145,6 +145,44 @@ main{
   }
 }
 
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $footerColor;
+  height: 265px;
+  padding: 0 80px;
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 33%;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: .6em;
+    letter-spacing: .2em;
+    .footerTitle{
+      opacity: .6;
+      margin-bottom: 10px;
+    }
+    div{
+      display: flex;
+      flex-direction: column;
+      height: 80px;
+      justify-content: space-between;
+      align-items: center;
+      span{
+        cursor: pointer;
+      }
+    }
+  }
+  >div:nth-child(2){
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
+
 @media (max-width: 1023px){
   header{
     height: 50px;
