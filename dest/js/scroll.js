@@ -1,6 +1,5 @@
 const getHeader = document.getElementById("header");
 const logo = document.getElementById("logo");
-console.log(getHeader);
 
 function scrollFunction(){
     if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
