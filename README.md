@@ -6,7 +6,7 @@ Clone Coding 002
 
 ## To Clone:
 
-- [x] [https://paint-box.com/](https://paint-box.com//)
+- [x] [https://paint-box.com/](https://paint-box.com/)
 
 ## Result:
 
