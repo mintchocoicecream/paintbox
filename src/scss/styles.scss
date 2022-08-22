@@ -253,6 +253,33 @@ footer{
   }
 }
 
+.shortcut{
+  display: inline-block;
+  padding: 2px;
+  position: fixed;
+  top: auto;
+  bottom: 13px;
+  left: 13px;
+  right: auto;
+  background-color: rgb(253, 227, 216);
+  border-radius: 50%;
+  cursor: pointer;
+  img{
+    width: 40px;
+  }
+  @keyframes shorcutSize {
+    from{
+      transform: scale(1);
+    }
+    to{
+      transform: scale(1.1);
+    }
+  }
+  &:hover{
+    animation: shorcutSize .3s ease-in-out both;
+  }
+}
+
 @media (max-width: 1023px){
   header{
     height: 50px;
