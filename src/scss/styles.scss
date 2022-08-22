@@ -378,6 +378,19 @@ main{
       }
     }
   }
+  .section:nth-child(5){
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    img{
+      cursor: pointer;
+      width: 100%;
+      transition: .5s ease-in-out;
+      &:hover{
+        opacity: .6;
+      }
+    }
+  }
     
 }
 
